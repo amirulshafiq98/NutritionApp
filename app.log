@@ -1,0 +1,351 @@
+2025-07-12 16:26:03,973 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 16:26:04,052 - logger_config - INFO - GUI application initialized.
+2025-07-12 16:26:16,465 - logger_config - INFO - Calculate button clicked.
+2025-07-12 16:26:32,361 - logger_config - INFO - Results display cleared.
+2025-07-12 16:26:33,075 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 16:41:58,260 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 16:41:58,328 - logger_config - INFO - GUI application initialized.
+2025-07-12 16:49:25,527 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 16:49:31,715 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 16:49:31,795 - logger_config - INFO - GUI application initialized.
+2025-07-12 16:49:41,948 - logger_config - INFO - Calculate button clicked.
+2025-07-12 16:49:43,350 - logger_config - CRITICAL - An unexpected error occurred while saving the nutrition plan: '<=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 67, in calculate_plan
+    if age <= 0 or weight_kg <= 0 or height_cm <= 0:
+TypeError: '<=' not supported between instances of 'str' and 'int'
+2025-07-12 16:49:44,371 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:01:26,452 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:01:26,519 - logger_config - INFO - GUI application initialized.
+2025-07-12 17:01:29,750 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:11:49,746 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:12:01,412 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:14:22,940 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:18:31,029 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:19:40,161 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:19:44,581 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:20:05,559 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:20:31,125 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:22:00,105 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:22:13,910 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:35:11,492 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:35:20,490 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:35:28,274 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:35:30,811 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:35:31,684 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:35:36,550 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:35:37,630 - logger_config - WARNING - Invalid Age input: 150
+2025-07-12 17:35:40,212 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:35:42,793 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:35:45,590 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:36:18,164 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:36:21,120 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:36:22,173 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:36:26,708 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:38:35,332 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:38:40,599 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:38:42,402 - logger_config - WARNING - Invalid Age input: 277
+2025-07-12 17:38:44,097 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:38:47,280 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:38:53,116 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:38:55,105 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:38:55,631 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:38:56,458 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:39:25,865 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:41:10,359 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:41:18,367 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:41:19,166 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:41:19,852 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:41:44,125 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:41:49,086 - logger_config - INFO - Calculate button clicked.
+2025-07-12 17:42:17,599 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages)
+TypeError: get_macro_recommendations() missing 1 required positional argument: 'weight_kg'
+2025-07-12 17:58:47,286 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:58:47,435 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:58:49,632 - logger_config - INFO - Results display cleared.
+2025-07-12 17:58:49,632 - logger_config - INFO - Results display cleared.
+2025-07-12 17:58:54,779 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:58:54,859 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:58:56,009 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:58:56,071 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:58:56,930 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:58:56,999 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:58:57,955 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:58:58,028 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:58:58,774 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:59:00,719 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:59:07,722 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 17:59:19,617 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 17:59:35,016 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 17:59:36,443 - logger_config - CRITICAL - An unexpected error occurred during calculation: expected floating-point number but got ""
+Traceback (most recent call last):
+  File "C:\Users\amiru\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 545, in get
+    return self._tk.getint(value)
+_tkinter.TclError: expected integer but got ""
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 60, in calculate_plan
+    patient_data = self.input_panel.get_all_inputs()
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\input_panel.py", line 154, in get_all_inputs
+    "age": self.age_var.get(),
+  File "C:\Users\amiru\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 547, in get
+    return int(self._tk.getdouble(value))
+_tkinter.TclError: expected floating-point number but got ""
+2025-07-12 17:59:43,469 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 17:59:44,912 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'bmi_category'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    self.results_panel.display_plan(patient_data, calculated_results)
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\results_panel.py", line 31, in display_plan
+    output_lines.append(f"Your Body Mass Index (BMI): {calculated_results['bmi']:.2f} ({calculated_results['bmi_category']})")
+KeyError: 'bmi_category'
+2025-07-12 17:59:47,226 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 17:59:49,357 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'bmi_category'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    self.results_panel.display_plan(patient_data, calculated_results)
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\results_panel.py", line 31, in display_plan
+    output_lines.append(f"Your Body Mass Index (BMI): {calculated_results['bmi']:.2f} ({calculated_results['bmi_category']})")
+KeyError: 'bmi_category'
+2025-07-12 17:59:55,037 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 17:59:56,210 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'bmi_category'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    self.results_panel.display_plan(patient_data, calculated_results)
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\results_panel.py", line 31, in display_plan
+    output_lines.append(f"Your Body Mass Index (BMI): {calculated_results['bmi']:.2f} ({calculated_results['bmi_category']})")
+KeyError: 'bmi_category'
+2025-07-12 17:59:56,871 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:01:16,963 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:01:24,749 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:01:25,932 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'bmi_category'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 123, in calculate_plan
+    self.results_panel.display_plan(patient_data, calculated_results)
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\results_panel.py", line 31, in display_plan
+    output_lines.append(f"Your Body Mass Index (BMI): {calculated_results['bmi']:.2f} ({calculated_results['bmi_category']})")
+KeyError: 'bmi_category'
+2025-07-12 18:01:26,566 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:06:41,567 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:06:49,753 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:06:49,753 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:06:54,775 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:07:34,494 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:07:44,029 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:07:44,029 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:07:48,934 - logger_config - INFO - Results display cleared.
+2025-07-12 18:07:49,644 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:09:22,069 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:11:50,216 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:11:53,520 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:11:58,149 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:12:01,385 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:12:02,476 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:12:13,703 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:14:35,411 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:17:03,942 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:17:07,549 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:18:36,121 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:18:41,659 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:18:46,488 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:19:02,315 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:19:18,687 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:19:23,123 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:19:23,123 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:19:24,786 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:20:47,531 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:21:13,336 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:23:29,175 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:24:00,621 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:24:00,718 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:24:02,038 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:24:02,107 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:24:02,954 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:24:06,191 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:25:09,442 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:25:09,542 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:25:10,532 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:25:22,071 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:25:53,457 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:26:01,886 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:26:03,103 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:26:55,767 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:26:57,355 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:29:35,927 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:30:05,628 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:30:05,721 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:30:19,901 - logger_config - INFO - Calculate button pressed.
+2025-07-12 18:30:21,820 - logger_config - CRITICAL - An unexpected error occurred during calculation: get_macro_recommendations() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 76, in calculate_plan
+    macro_recommendations = get_macro_recommendations(tdee, patient_data['medical_condition'], patient_data['sex'], patient_data['weight_goal'])
+TypeError: get_macro_recommendations() takes 3 positional arguments but 4 were given
+2025-07-12 18:30:24,962 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:30:29,310 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:30:30,438 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:30:31,452 - logger_config - CRITICAL - An unexpected error occurred during calculation: expected floating-point number but got ""
+Traceback (most recent call last):
+  File "C:\Users\amiru\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 545, in get
+    return self._tk.getint(value)
+_tkinter.TclError: expected integer but got ""
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 62, in calculate_plan
+    patient_data_raw = self.input_panel.get_all_inputs()
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\input_panel.py", line 189, in get_all_inputs
+    "age": self.age_var.get(),
+  File "C:\Users\amiru\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 547, in get
+    return int(self._tk.getdouble(value))
+_tkinter.TclError: expected floating-point number but got ""
+2025-07-12 18:30:37,482 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:30:38,600 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'age_str'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 67, in calculate_plan
+    age_str = patient_data_raw['age_str']
+KeyError: 'age_str'
+2025-07-12 18:30:39,397 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:30:45,093 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:30:57,261 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:32:00,449 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:32:07,839 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:32:07,839 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:32:10,819 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:34:18,934 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:34:55,648 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:35:14,649 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:35:16,841 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:35:19,396 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:35:26,374 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:35:26,374 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:35:29,042 - logger_config - INFO - Results display cleared.
+2025-07-12 18:35:29,787 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:35:55,497 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:35:59,759 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:36:04,950 - logger_config - CRITICAL - An unexpected error occurred during calculation: expected floating-point number but got ""
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 62, in calculate_plan
+    patient_data_raw = self.input_panel.get_all_inputs()
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\input_panel.py", line 204, in get_all_inputs
+    "weight_kg_str": self.weight_var.get(), # Get as string representation
+  File "C:\Users\amiru\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 568, in get
+    return self._tk.getdouble(self._tk.globalgetvar(self._name))
+_tkinter.TclError: expected floating-point number but got ""
+2025-07-12 18:36:08,560 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:36:08,560 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:36:10,812 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:36:23,112 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:36:29,744 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:36:29,744 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:36:32,173 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:38:46,072 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:38:56,037 - logger_config - INFO - Calculate button clicked.
+2025-07-12 18:38:57,238 - logger_config - CRITICAL - Unexpected error during calculation: get_macro_recommendations() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 89, in calculate_plan
+    macros = get_macro_recommendations(adjusted_tdee, macro_percentages["protein"], macro_percentages["carb"], macro_percentages["fat"])
+TypeError: get_macro_recommendations() takes 3 positional arguments but 4 were given
+2025-07-12 18:38:57,924 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:39:22,040 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:39:27,970 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:39:27,970 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:39:30,932 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:39:30,932 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:39:31,333 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:39:31,333 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:39:31,489 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:39:31,489 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:39:35,467 - logger_config - INFO - Results display cleared.
+2025-07-12 18:39:36,346 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:43:13,212 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:43:18,227 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:43:19,192 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 63, in calculate_plan
+    is_valid, patient_data, error_message = self.input_panel.validate_and_get_numeric_inputs()
+AttributeError: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+2025-07-12 18:43:22,140 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:43:25,092 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 63, in calculate_plan
+    is_valid, patient_data, error_message = self.input_panel.validate_and_get_numeric_inputs()
+AttributeError: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+2025-07-12 18:43:27,572 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:43:28,499 - logger_config - CRITICAL - An unexpected error occurred during calculation: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+Traceback (most recent call last):
+  File "c:\Users\amiru\Desktop\Portfolio\Nutrition Calculator\gui\app.py", line 63, in calculate_plan
+    is_valid, patient_data, error_message = self.input_panel.validate_and_get_numeric_inputs()
+AttributeError: 'InputPanel' object has no attribute 'validate_and_get_numeric_inputs'
+2025-07-12 18:43:32,038 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:44:58,724 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:45:05,069 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:45:06,057 - logger_config - WARNING - Calculation failed: Please enter a realistic age between 1 and 120 years.
+2025-07-12 18:45:10,472 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:45:10,472 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:45:12,238 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:46:07,356 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:46:13,707 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:46:14,784 - logger_config - WARNING - Calculation failed: Age cannot be empty.
+2025-07-12 18:46:18,133 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:47:58,118 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:48:08,033 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:48:08,033 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:48:11,291 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:48:11,291 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:48:22,810 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:48:22,810 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:48:24,385 - logger_config - INFO - Save button clicked.
+2025-07-12 18:48:29,324 - logger_config - INFO - Nutrition plan successfully saved to: C:/Users/amiru/Desktop/Portfolio/Nutrition Calculator/output/Sample Output.txt
+2025-07-12 18:49:17,560 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:49:35,562 - logger_config - INFO - Starting Nutrition Therapy Calculator GUI.
+2025-07-12 18:49:47,691 - logger_config - INFO - Calculate button clicked. Starting calculation.
+2025-07-12 18:49:47,691 - logger_config - INFO - Nutrition plan calculated and displayed successfully.
+2025-07-12 18:51:29,117 - logger_config - INFO - Nutrition Therapy Calculator GUI closed.
+2025-07-12 18:59:25,459 - logger_config - INFO - Application starting up.
+2025-07-12 18:59:30,407 - logger_config - INFO - Calculation initiated by user.
+2025-07-12 18:59:31,410 - logger_config - WARNING - Calculation aborted due to invalid input: Please enter a realistic age between 1 and 120 years.
+2025-07-12 18:59:32,937 - logger_config - INFO - Calculation initiated by user.
+2025-07-12 18:59:32,937 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
+2025-07-12 18:59:34,347 - logger_config - INFO - Application closed.

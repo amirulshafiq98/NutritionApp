@@ -1,0 +1,22 @@
+{
+    "calorie_adjustments": {
+        "weight_loss_deficit_kcal": 500,
+        "weight_gain_surplus_kcal": 500
+    },
+    "min_calories": {
+        "female": 1200,
+        "male": 1500
+    },
+    "macro_percentages": {
+        "general": {"protein": 0.20, "carb": 0.55, "fat": 0.25},
+        "diabetes": {"protein": 0.20, "carb": 0.50, "fat": 0.30},
+        "renal_disease": {"protein": 0.10, "carb": 0.60, "fat": 0.30},
+        "hypertension": {"protein": 0.20, "carb": 0.55, "fat": 0.25},
+        "heart_disease": {"protein": 0.20, "carb": 0.55, "fat": 0.25}
+    },
+    "logging": {
+        "file_name": "app.log",
+        "file_level": "INFO",
+        "console_level": "WARNING"
+    }
+}

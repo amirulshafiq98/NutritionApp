@@ -1,0 +1,91 @@
+# calculations.py
+from config_manager import SETTINGS # Accesses configuration values like macro percentages.
+
+def calculate_bmi(weight_kg, height_cm):
+    # Calculates Body Mass Index (BMI).
+    height_m = height_cm / 100
+    return weight_kg / (height_m ** 2)
+
+def classify_bmi(bmi):
+    # Categorises the calculated BMI into standard health classifications
+    if bmi < 18.5:
+        return "Underweight"
+    elif 18.5 <= bmi < 24.9:
+        return "Normal weight"
+    elif 25 <= bmi < 29.9:
+        return "Overweight"
+    elif 30 <= bmi < 34.9:
+        return "Obesity Class I"
+    elif 35 <= bmi < 39.9:
+        return "Obesity Class II"
+    else:
+        return "Obesity Class III (Morbid Obesity)"
+
+def calculate_bmr(age, sex, weight_kg, height_cm):
+    # Calculates Basal Metabolic Rate (BMR) using the Mifflin-St Jeor equation.
+    if sex == 'M':
+        bmr = (10 * weight_kg) + (6.25 * height_cm) - (5 * age) + 5
+    else:
+        bmr = (10 * weight_kg) + (6.25 * height_cm) - (5 * age) - 161
+    return bmr
+
+def calculate_tdee(bmr, activity_factor):
+    # Calculates Total Daily Energy Expenditure (TDEE)
+    return bmr * activity_factor
+
+def get_macro_recommendations(calories, macro_percentages, weight_kg=None):
+    # Calculates the recommended daily intake for protein, carbohydrates, and fats in grams
+    CALORIES_PER_GRAM = {
+        "protein": 4,
+        "carb": 4,
+        "fat": 9
+    }
+
+    protein_g = (calories * macro_percentages["protein"]) / CALORIES_PER_GRAM["protein"]
+    carb_g = (calories * macro_percentages["carb"]) / CALORIES_PER_GRAM["carb"]
+    fat_g = (calories * macro_percentages["fat"]) / CALORIES_PER_GRAM["fat"]
+
+    # Protein calculation could be further refined based on g/kg body weight for specific cases
+    return {
+        "protein_g": protein_g,
+        "carb_g": carb_g,
+        "fat_g": fat_g,
+        "protein_pct": macro_percentages["protein"],
+        "carb_pct": macro_percentages["carb"],
+        "fat_pct": macro_percentages["fat"]
+    }
+
+def get_micronutrient_guidelines(medical_condition):
+    # Provides general micronutrient guidelines based on a given medical condition
+    guidelines = {
+        "general": {
+            "Sodium": "2300 mg/day",
+            "Potassium": "3500-4700 mg/day",
+            "Fiber": "25-38 grams/day",
+            "Added Sugars": "<10% of total calories",
+            "Saturated Fat": "<10% of total calories"
+        },
+        "diabetes": {
+            "Sodium": "2300 mg/day",
+            "Potassium": "3500-4700 mg/day",
+            "Fiber": "25-30 grams/day (important for blood sugar control)",
+            "Added Sugars": "Minimize strictly",
+            "Saturated Fat": "<7% of total calories"
+        },
+        "renal_disease": {
+            "Sodium": "<2000 mg/day (often stricter, consult RD)",
+            "Potassium": "Highly individualized (often restricted, consult RD)",
+            "Phosphorus": "Highly individualized (often restricted, consult RD)",
+            "Fluid Intake": "Highly individualized (often restricted, consult RD)"
+        },
+        "hypertension": {
+            "Sodium": "<2300 mg/day (aim for <1500 mg/day for significant reduction - DASH diet)",
+            "Potassium": "4700 mg/day (from food sources, unless contraindicated by renal issues)",
+            "Saturated Fat": "<10% of total calories"
+        },
+        "heart_disease": {
+            "Sodium": "<2300 mg/day (aim for <1500 mg/day)",
+            "Saturated Fat": "<7% of total calories (focus on healthy fats)"
+        }
+    }
+    return guidelines.get(medical_condition, guidelines["general"])
