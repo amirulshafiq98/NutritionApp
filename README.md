@@ -1,3 +1,5 @@
+![Dietitian](https://github.com/user-attachments/assets/8d54447d-f93f-4bcb-938d-d1508d573f8b)
+
 # Project Background
 
 This project was inspired by my desire to create an app that was all encompassing featuring tools like scanning texts on the back of a food label and giving you information on each of the ingredients used. The information would include things like which ingredients are banned in certain countries or which additive has the potential to cause cancer and the like. While coding such an app would be a huge undertaking (requiring me to own a Mac for one), I figured I would start small to test my idea. This led me to create a nutirtion calculator which considers the users information to recommend the amount of macro and micronutrients that a person would need. The goal was to build something that could serve as a useful starting point for individuals to understand their basic nutritional requirements, especially when considering different activity levels, weight goals, or common medical conditions like diabetes or hypertension.
@@ -11,7 +13,7 @@ The app takes your age, sex, weight, height, and lifestyle choices, then calcula
 
 # How to Use
 
-<GUI image>
+<img width="1000" height="828" alt="GUI" src="https://github.com/user-attachments/assets/49fbca69-764a-4dd0-97be-a2ad92ce7701" />
 
 Using the Nutrition Therapy Calculator is straightforward:
 
@@ -29,21 +31,21 @@ Using the Nutrition Therapy Calculator is straightforward:
 Project Structure
 The project is organised into several distinct folders and files. This helps keep everything tidy and makes it easier to understand where different parts of the app's logic live.
 
-===
+
 Nutrition Calculator/
-├── gui/                     # Handles all the visual parts of the app (windows, buttons, text areas)
-│   ├── app.py               # The main brain for the app's window and how different parts talk to each other
-│   ├── input_panel.py       # Manages where you type in your information and select options
-│   └── results_panel.py     # Shows you the calculated nutrition plan
-├── app.log                  # A diary for the app, recording what it's doing (like when you click buttons or if something goes wrong)
-├── calculations.py          # Where all the math happens (like calculating BMI or calorie needs)
-├── clear_log.py             # A small helper tool to clean out the app's diary (app.log)
-├── config_manager.py        # Manages how the app uses its settings, like default calorie adjustments
-├── logger_config.py         # Sets up how the app writes its diary entries (logs)
-├── main.py                  # The file you run to start the whole app
-├── README.md                # This file, explaining the project
-└── settings.json            # A special file where you can adjust some numbers the app uses (like macro percentages)
-=== 
+<br> ├── gui/                     &emsp; &emsp; &emsp; &emsp; # Handles all the visual parts of the app (windows, buttons, text areas)
+<br> │   ├── app.py               &emsp; &emsp; &emsp; &emsp; # The main brain for the app's window and how different parts talk to each other
+<br> │   ├── input_panel.py       &emsp; &emsp; &emsp; &emsp; # Manages where you type in your information and select options
+<br> │   └── results_panel.py     &emsp; &emsp; &emsp; &emsp; # Shows you the calculated nutrition plan
+<br> ├── app.log                  &emsp; &emsp; &emsp; &emsp; # A diary for the app, recording what it's doing (like when you click buttons or if something goes wrong)
+<br> ├── calculations.py          &emsp; &emsp; &emsp; &emsp; # Where all the math happens (like calculating BMI or calorie needs)
+<br> ├── clear_log.py             &emsp; &emsp; &emsp; &emsp; # A small helper tool to clean out the app's diary (app.log)
+<br> ├── config_manager.py        &emsp; &emsp; &emsp; &emsp; # Manages how the app uses its settings, like default calorie adjustments
+<br> ├── logger_config.py         &emsp; &emsp; &emsp; &emsp; # Sets up how the app writes its diary entries (logs)
+<br> ├── main.py                  &emsp; &emsp; &emsp; &emsp; # The file you run to start the whole app
+<br> ├── README.md                &emsp; &emsp; &emsp; &emsp; # This file, explaining the project
+<br> └── settings.json            &emsp; &emsp; &emsp; &emsp; # A special file where you can adjust some numbers the app uses (like macro percentages)
+
 
 ## Technical Details
 I built this application using Python, a versatile programming language, primarily because it's excellent for handling calculations and building graphical interfaces relatively quickly.
@@ -62,7 +64,7 @@ I built this application using Python, a versatile programming language, primari
 
 This application's behaviour can be customised through the settings.json file, which is located in the main project directory. This file lets you adjust key parameters without needing to touch the Python code.
 
-<Json Image>
+<img width="789" height="917" alt="JSON" src="https://github.com/user-attachments/assets/ed85fadd-48b7-44e6-9cae-20ccd81486e4" />
 
 You can modify these values to:
 
@@ -95,4 +97,4 @@ This Nutrition Calculator provides estimates and examples based on general nutri
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/amirulshafiq98/NutritionApp/blob/main/LICENSE).
