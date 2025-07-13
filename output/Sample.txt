@@ -1,0 +1,35 @@
+--- Patient Information ---
+Age: 27 years
+Sex: M
+Weight: 77.0 kg
+Height: 176.0 cm
+Activity Level: Moderately active (moderate exercise/sports 3-5 days/week)
+Medical Condition: None
+Weight Goal: Maintain Weight
+
+--- Health Metrics ---
+BMI: 24.86 kg/m²
+BMI Classification: Normal weight
+
+--- Calorie & Macronutrient Recommendations ---
+Basal Metabolic Rate (BMR): 1740 kcal/day
+Total Daily Energy Expenditure (TDEE): 2697 kcal/day
+Target Calories (for Weight Maintenance): 2697 kcal/day
+Macronutrient Breakdown:
+  Protein: 135g (20%)
+  Carbohydrates: 371g (55%)
+  Fats: 75g (25%)
+
+--- General Micronutrient Guidelines ---
+  Sodium: 2300 mg/day
+  Potassium: 3500-4700 mg/day
+  Fiber: 25-38 grams/day
+  Added Sugars: <10% of total calories
+  Saturated Fat: <10% of total calories
+
+--- Important Dietary Considerations ---
+  No specific warnings based on your inputs or conditions.
+
+--- IMPORTANT DISCLAIMER ---
+These are *estimates* and *examples* based on general guidelines.
+Always consult a qualified healthcare professional (like a Registered Dietitian) for personalized nutrition therapy, especially for specific medical conditions.

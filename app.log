@@ -349,3 +349,16 @@ AttributeError: 'InputPanel' object has no attribute 'validate_and_get_numeric_i
 2025-07-12 18:59:32,937 - logger_config - INFO - Calculation initiated by user.
 2025-07-12 18:59:32,937 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
 2025-07-12 18:59:34,347 - logger_config - INFO - Application closed.
+2025-07-13 09:05:31,818 - logger_config - INFO - Application starting up.
+2025-07-13 09:05:42,842 - logger_config - INFO - Calculation initiated by user.
+2025-07-13 09:05:42,842 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
+2025-07-13 09:05:43,946 - logger_config - INFO - Save operation requested.
+2025-07-13 09:05:48,606 - logger_config - INFO - Nutrition plan saved to: C:/Users/amiru/Desktop/Portfolio/Nutrition Calculator/output/Sample Output.txt
+2025-07-13 09:05:59,385 - logger_config - INFO - Save operation requested.
+2025-07-13 09:06:06,851 - logger_config - INFO - Nutrition plan saved to: C:/Users/amiru/Desktop/Portfolio/Nutrition Calculator/output/Sample.txt
+2025-07-13 09:11:26,422 - logger_config - INFO - Application closed.
+2025-07-13 09:11:32,789 - logger_config - INFO - Application starting up.
+2025-07-13 09:11:43,876 - logger_config - INFO - Calculation initiated by user.
+2025-07-13 09:11:43,876 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
+2025-07-13 09:11:48,977 - logger_config - INFO - Nutrition plan saved to: C:/Users/amiru/Desktop/Portfolio/Nutrition Calculator/output/Sample.txt
+2025-07-13 09:12:32,330 - logger_config - INFO - Application closed.

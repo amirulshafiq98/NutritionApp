@@ -56,36 +56,8 @@ def get_macro_recommendations(calories, macro_percentages, weight_kg=None):
     }
 
 def get_micronutrient_guidelines(medical_condition):
-    # Provides general micronutrient guidelines based on a given medical condition
-    guidelines = {
-        "general": {
-            "Sodium": "2300 mg/day",
-            "Potassium": "3500-4700 mg/day",
-            "Fiber": "25-38 grams/day",
-            "Added Sugars": "<10% of total calories",
-            "Saturated Fat": "<10% of total calories"
-        },
-        "diabetes": {
-            "Sodium": "2300 mg/day",
-            "Potassium": "3500-4700 mg/day",
-            "Fiber": "25-30 grams/day (important for blood sugar control)",
-            "Added Sugars": "Minimize strictly",
-            "Saturated Fat": "<7% of total calories"
-        },
-        "renal_disease": {
-            "Sodium": "<2000 mg/day (often stricter, consult RD)",
-            "Potassium": "Highly individualized (often restricted, consult RD)",
-            "Phosphorus": "Highly individualized (often restricted, consult RD)",
-            "Fluid Intake": "Highly individualized (often restricted, consult RD)"
-        },
-        "hypertension": {
-            "Sodium": "<2300 mg/day (aim for <1500 mg/day for significant reduction - DASH diet)",
-            "Potassium": "4700 mg/day (from food sources, unless contraindicated by renal issues)",
-            "Saturated Fat": "<10% of total calories"
-        },
-        "heart_disease": {
-            "Sodium": "<2300 mg/day (aim for <1500 mg/day)",
-            "Saturated Fat": "<7% of total calories (focus on healthy fats)"
-        }
-    }
-    return guidelines.get(medical_condition, guidelines["general"])
+    # Access the micronutrient_guidelines from the loaded SETTINGS
+    all_guidelines = SETTINGS.get("micronutrient_guidelines", {})
+    
+    # Return specific guidelines if available, otherwise fall back to general
+    return all_guidelines.get(medical_condition, all_guidelines.get("general", {}))
