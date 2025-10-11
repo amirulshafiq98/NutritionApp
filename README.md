@@ -48,9 +48,9 @@ Nutrition Calculator/
 
 
 ## Technical Details
-I built this application using Python, a versatile programming language, primarily because it's excellent for handling calculations and building graphical interfaces relatively quickly.
+I built this application using Python because it's excellent for handling calculations and building graphical interfaces relatively quickly.
 
-**Tkinter for the Look and Feel:** I used Tkinter, Python's built-in tool for creating desktop applications. This allowed me to design a user-friendly window with input fields, buttons, and a results display. Choosing Tkinter meant I could focus on the core functionality without needing to learn complex external GUI frameworks such as PyQt and Kivy.
+**Tkinter for the Look and Feel:** I used Tkinter. This allowed me to design a user-friendly window with input fields, buttons, and a results display. Choosing Tkinter meant I could focus on the core functionality without needing to learn complex external GUI frameworks such as PyQt and Kivy.
 
 **Organised Code (Modular Design):** I divided the code into different files and folders (like the gui/ folder and calculations.py). The idea behind this was to keep specific tasks separate. For instance, all the math formulas are in calculations.py, while the parts that create the interface are in the gui/ folder. This makes the code easier to read, manage, and update, because if I want to change how BMI is calculated, I know exactly which file to look in.
 
