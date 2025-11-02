@@ -362,3 +362,10 @@ AttributeError: 'InputPanel' object has no attribute 'validate_and_get_numeric_i
 2025-07-13 09:11:43,876 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
 2025-07-13 09:11:48,977 - logger_config - INFO - Nutrition plan saved to: C:/Users/amiru/Desktop/Portfolio/Nutrition Calculator/output/Sample.txt
 2025-07-13 09:12:32,330 - logger_config - INFO - Application closed.
+2025-11-01 18:10:39,136 - logger_config - INFO - Application starting up.
+2025-11-01 18:10:42,001 - logger_config - INFO - Application closed.
+2025-11-01 18:20:55,406 - logger_config - INFO - Application starting up.
+2025-11-01 18:21:16,317 - logger_config - INFO - Calculation initiated by user.
+2025-11-01 18:21:16,317 - logger_config - INFO - Adjusted TDEE for weight loss: 2228.0 kcal.
+2025-11-01 18:21:16,317 - logger_config - INFO - Nutrition plan successfully calculated and displayed.
+2025-11-01 18:21:35,236 - logger_config - INFO - Application closed.
