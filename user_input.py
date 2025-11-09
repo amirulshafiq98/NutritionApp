@@ -16,7 +16,7 @@ def show_calculator():
 
     col1, col2 = st.columns(2)
     with col1:
-        age = st.number_input("Age (years)", min_value=0, max_value=120, value=0, step=1)
+        age = st.number_input("Age (years)", min_value=0, max_value=100, value=0, step=1)
         sex = st.selectbox("Sex", ["Select...", "M", "F"])
         height_cm = st.number_input("Height (cm)", min_value=0.0, max_value=250.0, value=0.0, step=0.1, format="%.1f")
     with col2:
@@ -51,6 +51,7 @@ def show_calculator():
         "Lose Weight": "loss",
         "Gain Weight": "gain"
     }
+    
     weight_goal_description = st.selectbox("Weight Goal", list(weight_goal_options.keys()))
     weight_goal = weight_goal_options[weight_goal_description]
 
